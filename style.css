@@ -1,0 +1,86 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    font-size: 14px;
+}
+
+span{
+    margin: 2px;
+}
+
+.btn{
+    border: solid red 1px;
+    color: red;
+    border-radius: 30px;
+}
+
+.btn-two{
+    background:hsl(322, 100%, 66%);
+    width: 140px;
+    border-radius: 30px;
+    border: solid hsl(322, 100%, 66%);
+    color: white;
+}
+
+.btn-four{
+    background:hsl(322, 100%, 66%);
+    width: 140px;
+    border: solid hsl(322, 100%, 66%);
+    color: white;
+    margin-left: 0%;
+}
+
+.form-control{
+    width: 100%;
+}
+.three-row{
+    background:  hsl(207, 100%, 98%);
+    width: 100%;
+    margin: 0 auto;
+ 
+}
+
+
+
+.fa-instagram {
+    color: red;
+}
+
+.fa {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 0px;
+    border-radius: 0px;
+    margin: 4px;
+}
+
+@media(max-width: 768px){
+    .logo{
+       width: 40%;
+    }
+    .logo-two{
+       width: 40%;
+    }
+
+    .btn-four{
+        margin-left: 0%;
+        margin-top: 10px;
+        float: right;
+    }
+    .your{
+      text-align: center;
+    } 
+      .grow{
+        text-align: center;
+    }  
+     .flowing{
+        text-align: center;
+    }
+
+    .ill{
+        text-align: center;
+    }
+}
